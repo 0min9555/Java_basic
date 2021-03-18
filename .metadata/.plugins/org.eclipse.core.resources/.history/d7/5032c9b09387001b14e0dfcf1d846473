@@ -1,0 +1,5 @@
+package ch12.sec09;
+
+public class ThreadA extends Thread {
+
+}

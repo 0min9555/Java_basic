@@ -1,0 +1,10 @@
+package ch12.sec04;
+
+public class ThreadNameEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

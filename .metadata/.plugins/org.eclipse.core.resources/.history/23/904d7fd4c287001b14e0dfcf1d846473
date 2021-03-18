@@ -1,0 +1,14 @@
+package ch13.sec07;
+
+import java.util.function.Consumer;
+
+public class ConsumerEx {
+
+	public static void main(String[] args) {
+		// String 타입의 매개변수 1개를 받아서 소비하는 람다식
+		Consumer <String> consumer = t -> System.out.println(t+"8");
+		consumer.accept("java");
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package ch13.sec04;
+	// 람다식 실행 블록에서 클래스 맴버(필드, 메소드)와 로컬 변수 사용
+
+public class UsingThis {
+	public int outterField=10;
+	
+	class Inner{
+		int innerField=20;
+		
+		void method() {
+			//람다식
+			MyFunctionalInterface fi = () -> {
+				System.out.println("outterField : "+outterField);
+				System.out.println("innerField : "+innerField);
+			};
+		}
+	}
+}

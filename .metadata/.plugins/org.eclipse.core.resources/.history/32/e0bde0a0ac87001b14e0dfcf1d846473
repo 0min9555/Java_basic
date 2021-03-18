@@ -1,0 +1,24 @@
+package ch12.sec16;
+
+public class PrintThread extends Thread {
+	
+	@Override
+	public void run() {
+		while(true) {
+			System.out.println("실행 중");
+			
+			// 일시 정지 상태 없는 경우
+			// interrupt된 상태인지를 확인하고
+			// interrupt 되었으면 정료
+			// interrupted() 메소드 또는 isInterrupted() 메소드 사용
+			
+			if(Thread.interrupted()) { // interrupt 되었으면 정료
+				break; // while문 종료
+			}
+				
+		}
+		
+		System.out.println("자원 정리");
+		System.out.println("실행 종료");
+	}
+}

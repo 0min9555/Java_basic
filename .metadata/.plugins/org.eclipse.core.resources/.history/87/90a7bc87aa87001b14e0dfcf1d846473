@@ -1,0 +1,5 @@
+package ch12.sec14;
+
+public class PrintThread extends Thread {
+
+}

@@ -1,0 +1,18 @@
+package ch12.sec02;
+
+//메인 스레드 : 프린팅 담당
+
+public class BeepPrintEx {
+
+	public static void main(String[] args) {
+		//스레드 생성 방법1
+		//Thread 클래스로부터 직접 생성
+		Runnable beepTask = new BeepTask(); //Runnable 구현 객체
+		Thread thread = new thread(beepTask); //작업 스레드 생성
+		
+		//beepTaskdml run()메소드 실행
+		thread.start();
+
+	}
+
+}

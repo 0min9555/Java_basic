@@ -1,0 +1,15 @@
+package ch11.sec07;
+
+import java.util.Date;
+
+public class SimpleDateFormatEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date now = new Date();
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yy-MM-dd");
+		
+	}
+
+}

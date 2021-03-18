@@ -1,0 +1,13 @@
+package ch12.sec10;
+
+public class YieldEx {
+
+	public static void main(String[] args) {
+		ThreadA threadA = new ThreadA();
+		ThreadB threadB = new ThreadB();
+		
+		threadA.start();
+		threadB.start();
+	}
+
+}

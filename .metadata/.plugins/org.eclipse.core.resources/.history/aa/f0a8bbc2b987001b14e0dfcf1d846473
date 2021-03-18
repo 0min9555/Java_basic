@@ -1,0 +1,16 @@
+package ch13.sec03;
+
+public class MyFunctionalInterfaceEx {
+
+	public static void main(String[] args) {
+		MyFunctionalInterface fi;
+		
+		fi = (x,y) -> {
+			int result = x + y;
+			return result;
+		};
+		System.out.println(result);
+
+	}
+
+}

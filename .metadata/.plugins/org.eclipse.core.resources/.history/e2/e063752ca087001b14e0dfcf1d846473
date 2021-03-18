@@ -1,0 +1,13 @@
+package ch12.sec11;
+
+public class JoinEx {
+
+	public static void main(String[] args) {
+		SumThread sumthread = new SumThread();
+		sumthread.start();
+		
+		System.out.println("1~100 гу : "+sumthread.getSum());
+
+	}
+
+}

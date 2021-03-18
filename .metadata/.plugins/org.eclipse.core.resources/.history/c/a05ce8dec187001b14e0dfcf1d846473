@@ -1,0 +1,11 @@
+package ch13.sec07;
+
+public class CousumerEx {
+
+	public static void main(String[] args) {
+		// String 타입의 매개변수 1개를 받아서 소비하는 람다식
+		Consumer <String> consumer = t -> system.out.println(t+"8");
+
+	}
+
+}

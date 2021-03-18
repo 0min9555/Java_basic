@@ -1,0 +1,7 @@
+package ch13;
+
+
+@FunctionalInterface
+public interface MyFuntionalInterface {
+	public void method();
+}

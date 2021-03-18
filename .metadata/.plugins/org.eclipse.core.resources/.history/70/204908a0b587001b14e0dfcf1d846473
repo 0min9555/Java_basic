@@ -1,0 +1,15 @@
+package ch13.sec02;
+
+// 매개변수가 1개인 람다식
+// 매개값으로 2 전달
+// 결과는 x*5 한 결과 출력하는 람다식 작성
+// 10출력
+
+public class MyFunctionalInterfaceEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

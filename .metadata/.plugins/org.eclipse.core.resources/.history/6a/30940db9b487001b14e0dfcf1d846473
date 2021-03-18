@@ -1,0 +1,17 @@
+package ch13.sec01;
+
+public class MyFunctionalInterfaceEx {
+
+	public static void main(String[] args) {
+		// 인터페이스 변수 = 람다식
+		// 매개변수 없고, 리턴값도 없는 람다식
+		MyFunctionalInterface fi= () -> {
+			String str = "method call1";
+			System.out.println(str);
+		};
+
+		//메소드 호출 : 람다식의 중괄호 { ...} 실행
+		fi.method();
+	}
+
+}
